@@ -1,0 +1,1488 @@
+    .admn .card {
+        position: relative;
+        height: 320px;
+        width: 580px!important;
+        margin: 78px auto 59px auto;
+        background: #fff;
+        border-radius: 50px;
+        box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.09)
+    }
+    
+    .reg-h {
+        height: 450px!important;
+    }
+    
+    .reg-h .ema-btn {
+        margin-top: 37px!important;
+        margin-left: 26px!important;
+    }
+    
+    .ema-btn {
+        background-color: #322bbf!important;
+        color: #fff!important;
+        border: none!important;
+        padding: 8px 30px!important;
+        margin-left: -57px!important;
+    }
+    
+    .ema-btn:hover {
+        background-color: #6280ff!important;
+        transition: all;
+    }
+    
+    .creat .ema-btn {
+        margin-left: 463px!important;
+        padding: 12px 26px!important;
+        background-color: #fc09b2!important
+    }
+    
+    .ema-btn-d {
+        background-color: #fc09b2!important;
+        color: #fff!important;
+        border: none!important;
+        padding: 6px 18px!important;
+        margin-top: -30px;
+        margin-left: 15px;
+    }
+    
+    .ema-btn-e {
+        background-color: #322bbf!important;
+        color: #fff!important;
+        border: none!important;
+        padding: 8px 28px!important;
+        margin-left: 150px!important;
+    }
+    
+    .card-header {
+        font-size: 38px;
+        position: absolute;
+        top: -86px;
+        text-align: center;
+        left: 41%;
+        color: #6280ff!important;
+        background-color: #fff!important;
+        border-bottom: none!important;
+    }
+    
+    .admn label {
+        color: #fc09b2;
+        margin-left: 46px;
+        margin-top: 10px;
+    }
+    
+    .rmember {
+        margin-left: 1px!important;
+        margin-top: -2px!important;
+        margin-bottom: 19px!important;
+    }
+    
+    .admn .form-control {
+        background-color: #fff!important;
+        color: #322bbf;
+        border-radius: 10px;
+        border: 1px solid #fc09b2!important;
+        width: 462px;
+        margin-top: 50px!important;
+        margin-left: -192px!important;
+        margin-bottom: -7px!important;
+    }
+    
+    .form-check {
+        margin-top: 26px!important;
+    }
+    
+    .top {
+        margin-top: 150px;
+    }
+    
+    .login-box {
+        position: absolute;
+        top: 100px;
+        right: 107px;
+        display: inline;
+        color: #fff!important;
+    }
+    
+    .login-btn {
+        background-color: #6280ff!important;
+        padding: 10px 20px;
+        border: solid 1px #fff;
+        border-radius: 50px;
+        display: inline-block;
+        position: absolute;
+    }
+    
+    .register-btn {
+        background-color: #6280ff !important;
+        color: #fff!important;
+        padding: 10px 20px;
+        border: solid 1px #fff;
+        border-radius: 50px;
+        display: inline-block;
+        position: absolute;
+    }
+    
+    html,
+    body {
+        background-color: #fff;
+        font-family: 'Source Sans Pro', sans-serif;
+        overflow-x: hidden !important;
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    
+    * {
+        text-decoration: none !important;
+    }
+    
+    .nav {
+        position: fixed;
+        z-index: 1000;
+        top: 0;
+        right: 0;
+        left: 0;
+        height: 80px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 25px 0 25px;
+        background-color: #fff;
+        box-shadow: 0 19px 38px rgba(0, 0, 0, 0.10);
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    
+    .nav .links a {
+        margin-right: 25px;
+        font-size: 16px;
+        font-weight: 600;
+        color: #6280ff;
+    }
+    
+    .nav .links .mainlink {
+        color: #322bbf;
+    }
+    
+    .nav h4 {
+        font-size: 22px;
+        font-weight: bold;
+        margin-left: 25px;
+    }
+    
+    .nav .logo {
+        color: #fc09b2;
+    }
+    /* LANDING CSS */
+    
+    .main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10vw 0 10vw;
+        height: 100vh;
+    }
+    
+    .mainText h1 {
+        font-size: 5vw;
+        margin: 0 !important;
+        color: #fc09b2;
+    }
+    
+    .main-let,
+    .let {
+        margin: 6px !important;
+        font-size: 20px;
+        opacity: 0.7;
+        line-height: 30px;
+        color: #6280ff !important;
+    }
+    
+    .mainImage img {
+        width: 28vw;
+    }
+    
+    .main-span {
+        color: #322bbf;
+        font-size: 4vw;
+    }
+    /* who-iam CSS */
+    
+    .who-iam,
+    .why-travel {
+        height: 600px;
+        padding: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .who-iamText,
+    .why-travel {
+        position: relative;
+        padding: 0px 0 50px 50px;
+        height: inherit;
+    }
+    
+    .why-travel h1,
+    .who-iamText h1 {
+        position: relative;
+        left: 0px;
+        color: #322bbf;
+        top: 44px;
+    }
+    
+    .who-iamText img {
+        width: 24vw;
+        position: absolute;
+        top: 129px;
+        right: 138px;
+    }
+    
+    .about .who-iamText img {
+        width: 21vw;
+        position: absolute;
+        top: 129px;
+        right: 0;
+    }
+    
+    .why-travel {
+        width: 95%;
+    }
+    
+    .who-iamList {
+        width: 50%;
+    }
+    
+    ol {
+        list-style: none;
+        color: #6280ff;
+    }
+    
+    ol li {
+        font-size: 34px;
+        position: relative;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #322bbf;
+    }
+    
+    li p {
+        font-size: 16px;
+        color: #fc09b2;
+        padding-left: 60px;
+        line-height: 30px;
+        opacity: 0.6;
+    }
+    
+    li span {
+        position: absolute;
+        line-height: 25px;
+        font-weight: 600;
+    }
+    
+    .about-span {
+        font-weight: 600;
+        padding-left: -33px;
+        font-size: 23px;
+        margin-top: 16px;
+    }
+    /* Blog_SECTION CSS */
+    
+    .show-single {
+        position: relative;
+        margin-bottom: 50px;
+    }
+    
+    .navbar-blog {
+        margin-top: 100px!important;
+    }
+    
+    .BlogSection h1 {
+        color: #322bbf;
+    }
+    
+    .BlogHeader {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    
+    .BlogHeader-index {
+        margin-top: 140px!important;
+        text-align: center;
+        margin-bottom: 40px;
+        color: #322bbf;
+    }
+    
+    .BlogCards {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-items: center;
+        padding: 40px 0 40px 0;
+        overflow: hidden!important;
+    }
+    
+    .BlogCards .card {
+        position: relative;
+        height: 452px!important;
+        width: 333px!important;
+        margin-bottom: 60px;
+        background: #fff;
+        border-radius: 50px;
+        box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.09)
+    }
+    
+    .blog-date {
+        position: absolute;
+        top: 229px;
+        left: 174px;
+        color: #322bbf;
+    }
+    
+    .BlogCards .one .cardoneImg {
+        width: 120px;
+        position: absolute;
+        top: -30px;
+        right: -24px;
+        z-index: 117!important;
+    }
+    
+    .BlogCards .two .cardtwoImg {
+        width: 158px;
+        position: absolute;
+        top: -50px;
+        right: -50px;
+    }
+    
+    .BlogCards .three .cardthreeImg {
+        width: 200px;
+        position: absolute;
+        top: -50px;
+        right: -50px;
+    }
+    
+    .show .cardbgone {
+        height: 400px;
+        background-color: #322bbf;
+    }
+    
+    .show .written {
+        line-height: 33px;
+        opacity: 0.9;
+        color: #322bbf!important;
+        margin-top: 58px;
+        margin-bottom: 24px;
+        margin-left: 115px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    
+    .show .blog-date {
+        position: absolute;
+        top: 687px;
+        color: #322bbf;
+        font-size: 22px;
+        font-weight: bold;
+        left: 965px;
+    }
+    
+    .show .description {
+        line-height: 33px;
+        font-size: 22px;
+        opacity: 0.9;
+        color: #6280ff;
+        margin-left: 15px;
+        text-align: justify;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    
+    .cardbgone {
+        height: 150px;
+        background-color: #322bbf;
+    }
+    
+    .cardbgtwo {
+        height: 150px;
+        background-color: #322bbf;
+    }
+    
+    .cardContent {
+        padding: 0 20px;
+    }
+    
+    .cardContent h2 {
+        font-weight: 600;
+        color: #fc09b2;
+        text-align: center;
+        text-transform: capitalize;
+        margin: 24px;
+    }
+    
+    .cardContent p {
+        line-height: 30px;
+        opacity: 0.9;
+        color: #6280ff;
+    }
+    
+    .written {
+        line-height: 30px;
+        opacity: 0.9;
+        color: #322bbf!important;
+        margin-top: -9px;
+        margin-bottom: 24px;
+        margin-left: 15px;
+    }
+    
+    .description {
+        line-height: 30px;
+        opacity: 0.9;
+        color: #6280ff;
+        margin-left: 15px;
+        text-align: justify;
+        height: 59px!important;
+    }
+    
+    .cardContent .cardBtn {
+        position: absolute;
+        right: 20px;
+        padding: 10px;
+        background-color: #fff;
+        width: 40px;
+        height: 40px;
+        border-radius: 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all ease-in-out 0.2s;
+    }
+    
+    .cardContent .cardBtn:hover {
+        background-color: #322bbf;
+    }
+    
+    .cardContent .cardBtn .cardIcon {
+        position: relative;
+        top: 0px;
+        left: 0px;
+        width: 16px;
+        color: #322bbf;
+    }
+    /* Contact */
+    
+    .banner {
+        height: 720px!important;
+        background-color: #fc09b2;
+        display: flex;
+        flex-direction: row;
+        padding: 50px;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .bannerText img {
+        width: 10vw;
+        margin-right: 20px;
+    }
+    
+    .bannerImg img {
+        width: 380px;
+        margin-right: 68px;
+        margin-left: 82px;
+        margin-top: -20px;
+    }
+    
+    #contact {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .section-header {
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 35px;
+        color: #322bbf;
+        text-transform: uppercase;
+        margin-left: -92px;
+    }
+    /* Left contact page */
+    
+    .form-horizontal {
+        margin-left: 97px;
+    }
+    
+    .form-control,
+    textarea {
+        background-color: #fc09b2!important;
+        color: #322bbf;
+        border-radius: 10px;
+        border: 1px solid #fff!important;
+        width: 462px;
+        padding: 13px;
+        margin: 8px!important;
+    }
+    
+    .send-button {
+        margin-top: 15px;
+        height: 34px;
+        width: 400px;
+        overflow: hidden;
+        transition: all .2s ease-in-out;
+        margin-left: 53px;
+        background-color: #fff!important;
+        border: none!important;
+        border-radius: 10px;
+    }
+    
+    .alt-send-button {
+        width: 400px;
+        height: 13px;
+        transition: all .2s ease-in-out;
+        color: #322bbf;
+    }
+    
+    .send-text {
+        display: block;
+        margin-top: 10px;
+        letter-spacing: 2px;
+        color: #322bbf;
+    }
+    
+    .alt-send-button:hover {
+        transform: translate3d(0px, -29px, 0px);
+    }
+    /* Social Media Icons */
+    
+    .social-media-list {
+        position: relative;
+        font-size: 29px;
+        text-align: center;
+        width: 100%;
+        padding: 0;
+        margin-left: 47%;
+    }
+    
+    .social-media-list li a {
+        color: #322bbf;
+        position: absolute;
+        top: 21px;
+        right: 21px;
+    }
+    
+    .social-media-list li {
+        position: relative;
+        display: inline-block;
+        height: 70px;
+        width: 70px;
+        margin: 51px 7px;
+        line-height: 60px;
+        border-radius: 50%;
+        color: #322bbf;
+        background-color: #fff;
+        cursor: pointer;
+        transition: all .2s ease-in-out;
+    }
+    
+    .social-media-list li:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 70px;
+        height: 70px;
+        line-height: 60px;
+        border-radius: 50%;
+        opacity: 0;
+        box-shadow: 0 0 0 1px #6280ff;
+        transition: all .2s ease-in-out;
+    }
+    
+    .social-media-list li:hover {
+        background-color: #fff;
+    }
+    
+    .social-media-list li:hover:after {
+        opacity: 1;
+        transform: scale(1.12);
+        transition-timing-function: cubic-bezier(0.37, 0.74, 0.15, 1.65);
+    }
+    
+    .social-media-list li:hover a {
+        color: #6280ff;
+    }
+    
+    hr {
+        border-color: rgba(255, 255, 255, .6);
+    }
+    /* Begin Media Queries*/
+    
+    @media screen and (max-width: 850px) {
+        .contact-wrapper {
+            display: flex;
+            flex-direction: column;
+        }
+        .direct-contact-container,
+        .form-horizontal {
+            margin: 0 auto;
+        }
+        .direct-contact-container {
+            margin-top: 60px;
+            max-width: 300px;
+        }
+        .social-media-list li {
+            height: 60px;
+            width: 60px;
+            line-height: 60px;
+        }
+        .social-media-list li:after {
+            width: 60px;
+            height: 60px;
+            line-height: 60px;
+        }
+    }
+    
+    @media screen and (max-width: 569px) {
+        .direct-contact-container,
+        .form-wrapper {
+            float: none;
+            margin: 0 auto;
+        }
+        .form-control,
+        textarea {
+            margin: 0 auto;
+        }
+        .name,
+        .email,
+        textarea {
+            width: 280px;
+        }
+        .direct-contact-container {
+            margin-top: 60px;
+            max-width: 280px;
+        }
+        .social-media-list {
+            left: 0;
+        }
+        .social-media-list li {
+            height: 55px;
+            width: 55px;
+            line-height: 55px;
+            font-size: 2rem;
+        }
+        .social-media-list li:after {
+            width: 55px;
+            height: 55px;
+            line-height: 55px;
+        }
+    }
+    
+    @media screen and (max-width: 410px) {
+        .send-button {
+            width: 99%;
+        }
+    }
+    /* FOOTER CSS */
+    
+    .footer {
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    
+    .footer .logo {
+        color: #fc09b2;
+    }
+    
+    .footerlinks a {
+        margin: 20px;
+        font-size: 16px;
+        font-weight: 600;
+        color: #6280ff;
+    }
+    
+    .footerlinks .mainlink {
+        color: #6280ff;
+    }
+    /* RESPONSIVE */
+    
+    @media screen and (max-width:375px) {
+        /** main page**/
+        .mainImage img {
+            width: 55vw;
+            position: absolute;
+            right: 43px;
+            top: -22px;
+        }
+        .mainImage-about img {
+            width: 47vw;
+            position: absolute;
+            right: 48px;
+            top: -22px;
+        }
+        .mainText {
+            position: relative;
+            top: 124px;
+            text-align: center;
+            left: 66px;
+        }
+        .mainText h1 {
+            font-size: 7vw;
+            color: #fc09b2;
+            margin-top: 211px!important;
+        }
+        .main-let {
+            position: absolute;
+            top: 282px;
+            width: 174%!important;
+            left: -93px;
+        }
+        .why-travel {
+            width: 90%!important;
+            margin-top: 190px;
+        }
+        .why-travel dl,
+        .why-travel ol,
+        .why-travel ul {
+            margin-top: 307px!important;
+            margin-left: -29px!important;
+        }
+        .why-travel ol li {
+            margin-left: -101px!important;
+        }
+        .why-travelText img {
+            width: 51vw;
+            position: absolute;
+            top: -420px;
+            left: 48px;
+        }
+        .why-travelText h1 {
+            left: -14px!important;
+            font-size: 6vw;
+            top: -228px!important;
+            width: 310%!important;
+        }
+        .BlogCards .card {
+            width: 325px;
+        }
+        .BlogCards .one .cardoneImg {
+            right: -10px;
+        }
+        /** about page **/
+        .about .main {
+            height: 62vh;
+        }
+        .let {
+            position: absolute;
+            top: 264px;
+            width: 174%!important;
+            left: -93px;
+        }
+        .about .who-iamText img {
+            width: 45vw;
+            position: absolute;
+            top: 176px;
+            left: -3px;
+        }
+        .who-iamText h1 {
+            left: -14px!important;
+            font-size: 6vw;
+            top: 356px;
+        }
+        .who-iam dl,
+        .who-iam ol,
+        .who-iam ul {
+            margin-top: 307px!important;
+            margin-left: -29px!important;
+        }
+        .banner {
+            height: 600px!important;
+            width: 375px!important;
+            margin-top: 50px!important;
+        }
+        .section-header {
+            padding-top: -28px;
+            margin-left: -5px;
+            margin-bottom: 12px
+        }
+        .direct-contact-container {
+            margin-top: -19px;
+            max-width: 280px;
+        }
+        .direct-contact-container,
+        .form-horizontal {
+            width: 300px!important;
+        }
+        .bannerImg img {
+            display: none;
+        }
+        .btn-primary {
+            width: 260px!important;
+            position: absolute;
+            border-color: none;
+            right: 12px;
+        }
+        .alt-send-button {
+            width: 234px;
+        }
+        .social-media-list {
+            left: -123px;
+            top: 61px;
+        }
+        .social-media-list li {
+            height: 45px;
+            width: 45;
+            margin: 35px 2px;
+        }
+        .social-media-list li a {
+            color: #322bbf;
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            font-size: 18px;
+        }
+        .social-media-list li:after {
+            width: 45px;
+            height: 45px;
+        }
+    }
+    
+    @media screen and (min-width:376px)and (max-width:414px) {
+        /** main page**/
+        .mainImage img {
+            width: 155vw;
+            position: absolute;
+            right: 69px;
+            top: -145px;
+        }
+        .about .mainImage-about img {
+            width: 50vw;
+            position: absolute;
+            right: 48px;
+            top: -22px;
+        }
+        .mainText {
+            position: relative;
+            top: 124px;
+            text-align: center;
+            left: 66px;
+        }
+        .mainText h1 {
+            font-size: 7vw;
+            color: #fc09b2;
+            margin-top: 221px!important;
+        }
+        .main-let {
+            position: absolute;
+            top: 282px;
+            width: 174%!important;
+            left: -93px;
+        }
+        .why-travel {
+            width: 90%!important;
+            margin-top: 190px;
+        }
+        .why-travel dl,
+        .why-travel ol,
+        .why-travel ul {
+            margin-top: 307px!important;
+            margin-left: -29px!important;
+        }
+        .why-travel ol li {
+            margin-left: -101px!important;
+        }
+        .why-travelText img {
+            width: 51vw;
+            position: absolute;
+            top: -420px;
+            left: 48px;
+        }
+        .why-travelText h1 {
+            left: -14px!important;
+            font-size: 6vw;
+            top: -228px!important;
+            width: 310%!important;
+        }
+        .BlogCards .card {
+            width: 325px;
+        }
+        .BlogCards .one .cardoneImg {
+            right: -10px;
+        }
+        /** about page **/
+        .about .main {
+            height: 70vh;
+        }
+        .about .let {
+            position: absolute;
+            top: 308px;
+            width: 174%!important;
+            left: -102px;
+            font-size: 24px;
+        }
+        .about .who-iam {
+            margin-top: 300px!important;
+        }
+        .about .who-iamText img {
+            width: 48vw;
+            position: absolute;
+            top: -74px;
+            left: 10px;
+        }
+        .who-iamText h1 {
+            left: -14px!important;
+            font-size: 6vw;
+            top: 144px;
+        }
+        dl,
+        ol,
+        ul {
+            margin-top: 91px!important;
+            margin-left: -29px!important;
+        }
+        .banner {
+            height: 610px!important;
+            width: 414px!important;
+            margin-top: 50px!important;
+        }
+        .section-header {
+            margin-top: 120px;
+            margin-left: -16px;
+            margin-bottom: 12px;
+        }
+        .direct-contact-container,
+        .form-horizontal {
+            width: 350px!important;
+        }
+        .bannerImg img {
+            display: none;
+        }
+        .btn-primary {
+            width: 270px!important;
+            position: absolute;
+            border-color: none;
+            right: 41px;
+        }
+        .alt-send-button {
+            width: 250px;
+        }
+        .social-media-list {
+            left: 36px;
+            top: -76px;
+        }
+        .social-media-list li {
+            height: 55px;
+            width: 55px;
+            margin: 38px 4px;
+        }
+        .social-media-list li a {
+            position: absolute;
+            top: 15px;
+            right: 16px;
+            font-size: 24px;
+        }
+        .social-media-list li:after {
+            width: 55px;
+            height: 55px;
+        }
+    }
+    
+    @media screen and (max-width:482px)and (min-width: 415px) {
+        .nav .links a {
+            margin-right: 22px!important;
+            font-size: 16px!important;
+            font-weight: 600;
+        }
+        /** main page**/
+        .mainImage img {
+            width: 57vw;
+            position: absolute;
+            right: 43px;
+            top: -83px;
+        }
+        .mainText {
+            position: relative;
+            top: 124px;
+            text-align: center;
+            left: 66px;
+        }
+        .mainText h1 {
+            font-size: 7vw;
+            color: #fc09b2;
+            margin-top: 211px!important;
+        }
+        .main-let {
+            position: absolute;
+            top: 282px;
+            width: 174%!important;
+            left: -93px;
+        }
+        .why-travel {
+            width: 90%!important;
+            margin-top: 190px;
+        }
+        .why-travel dl,
+        .why-travel ol,
+        .why-travel ul {
+            margin-top: 307px!important;
+            margin-left: -29px!important;
+        }
+        .why-travel ol li {
+            margin-left: -101px!important;
+        }
+        .why-travelText img {
+            width: 51vw;
+            position: absolute;
+            top: -420px;
+            left: 48px;
+        }
+        .why-travelText h1 {
+            left: -14px!important;
+            font-size: 6vw;
+            top: -197px!important;
+            width: 310%!important;
+        }
+        .BlogCards .card {
+            width: 345px;
+        }
+        .BlogCards .one .cardoneImg {
+            right: -10px;
+        }
+        /** about page **/
+        .who-iam {
+            margin-top: 163px;
+        }
+        .about .main {
+            height: 90vh;
+        }
+        .about .mainImage-about img {
+            width: 43vw;
+            position: absolute;
+            right: 87px;
+            top: -75px;
+        }
+        .about .let {
+            position: absolute;
+            top: 305px;
+            width: 174%!important;
+            left: -111px;
+            font-size: 24px;
+        }
+        .about .who-iamText img {
+            width: 38vw;
+            position: absolute;
+            top: -60px;
+            left: 23px;
+        }
+        .who-iamText h1 {
+            left: -14px!important;
+            font-size: 7vw;
+            top: 140px;
+        }
+        dl,
+        ol,
+        ul {
+            margin-top: 100px!important;
+            margin-left: -29px!important;
+        }
+        .banner {
+            width: 482px!important;
+            margin-top: 50px!important;
+        }
+        .section-header {
+            margin-top: 141px;
+            margin-left: -16px;
+            margin-bottom: 12px;
+        }
+        .direct-contact-container,
+        .form-horizontal {
+            width: 400px!important;
+        }
+        .bannerImg img {
+            display: none;
+        }
+        .btn-primary {
+            width: 300px!important;
+            position: absolute;
+            border-color: none;
+            right: 49px;
+        }
+        .alt-send-button {
+            width: 250px;
+        }
+        .social-media-list {
+            left: -57px;
+            top: -111px;
+            width: 450px!important;
+        }
+        .social-media-list li {
+            height: 65px;
+            width: 65px;
+            margin: 38px 4px;
+        }
+        .social-media-list li a {
+            position: absolute;
+            top: 18px;
+            right: 18px;
+            font-size: 28px;
+        }
+        .social-media-list li:after {
+            width: 65px;
+            height: 65px;
+        }
+        .footer {
+            padding-top: 20px;
+        }
+    }
+    
+    @media screen and (max-width: 600px) and (min-width: 501px) {
+        /** main page**/
+        .mainImage img {
+            width: 57vw;
+            position: absolute;
+            right: 43px;
+            top: -83px;
+        }
+        .mainImage-about img {
+            width: 47vw;
+            position: absolute;
+            right: 48px;
+            top: -22px;
+        }
+        .mainText {
+            position: relative;
+            top: 124px;
+            text-align: center;
+            left: 66px;
+        }
+        .mainText h1 {
+            font-size: 7vw;
+            color: #fc09b2;
+            margin-top: 211px!important;
+        }
+        .main-let {
+            position: absolute;
+            top: 282px;
+            width: 174%!important;
+            left: -93px;
+        }
+        .why-travel {
+            width: 90%!important;
+            margin-top: 190px;
+        }
+        .why-travel dl,
+        .why-travel ol,
+        .why-travel ul {
+            margin-top: 307px!important;
+            margin-left: -29px!important;
+        }
+        .why-travel ol li {
+            margin-left: -101px!important;
+        }
+        .why-travelText img {
+            width: 51vw;
+            position: absolute;
+            top: -420px;
+            left: 48px;
+        }
+        .why-travelText h1 {
+            left: -14px!important;
+            font-size: 6vw;
+            top: -197px!important;
+            width: 310%!important;
+        }
+        .BlogCards .card {
+            width: 345px;
+        }
+        .BlogCards .one .cardoneImg {
+            right: -10px;
+        }
+        /** about page **/
+        .nav .links a {
+            margin-right: 22px!important;
+            font-size: 16px!important;
+            font-weight: 600;
+        }
+        .about .main {
+            height: 90vh;
+        }
+        .let {
+            position: absolute;
+            top: 165px;
+            width: 174%!important;
+            left: 30px;
+            font-size: 29px;
+        }
+        .about .who-iamText img {
+            width: 40vw;
+            position: absolute;
+            top: -60px;
+            left: 23px;
+        }
+        .who-iamText h1 {
+            left: -14px!important;
+            font-size: 9vw;
+            top: 225px;
+        }
+        dl,
+        ol,
+        ul {
+            margin-top: 190px!important;
+            margin-left: -29px!important;
+        }
+        .banner {
+            width: 600px!important;
+            margin-top: 50px!important;
+        }
+        .section-header {
+            margin-top: 260px;
+            margin-left: -16px;
+            margin-bottom: 12px;
+        }
+        .direct-contact-container,
+        .form-horizontal {
+            width: 490px!important;
+        }
+        .bannerImg img {
+            display: none;
+        }
+        .btn-primary {
+            width: 350px!important;
+            position: absolute;
+            border-color: none;
+            right: 70px;
+        }
+        .alt-send-button {
+            width: 316px;
+        }
+        .social-media-list {
+            left: -42px;
+            top: -176px;
+            width: 450px!important;
+        }
+        .social-media-list li {
+            height: 75px;
+            width: 75px;
+            margin: 38px 4px;
+        }
+        .social-media-list li a {
+            position: absolute;
+            top: 21px;
+            right: 22px;
+            font-size: 30px;
+        }
+        .social-media-list li:after {
+            width: 75px;
+            height: 75px;
+        }
+        .footer {
+            padding-top: 20px;
+        }
+    }
+    
+    @media screen and (max-width: 801px) and (min-width: 601px) {
+        /** about page **/
+        .nav .links a {
+            margin-right: 22px!important;
+            font-size: 18px!important;
+            font-weight: 600;
+        }
+        .about .main {
+            height: 90vh;
+        }
+        .let {
+            position: absolute;
+            top: 85px;
+            width: 174%!important;
+            left: -6px;
+            font-size: 34px;
+        }
+        .about .who-iamText img {
+            width: 36vw;
+            position: absolute;
+            top: -50px;
+            left: 0px;
+        }
+        .who-iamText h1 {
+            left: -14px!important;
+            font-size: 9vw;
+            top: 240px!important;
+        }
+        dl,
+        ol,
+        ul {
+            margin-top: 230px!important;
+            margin-left: -29px!important;
+        }
+        .banner {
+            width: 800px!important;
+            margin-top: 50px!important;
+        }
+        .section-header {
+            margin-top: 260px;
+            margin-left: -16px;
+            margin-bottom: 12px;
+        }
+        .direct-contact-container,
+        .form-horizontal {
+            width: 690px!important;
+        }
+        .bannerImg img {
+            display: none;
+        }
+        .btn-primary {
+            width: 550px!important;
+            position: absolute;
+            border-color: none;
+            right: 70px;
+        }
+        .alt-send-button {
+            width: 550px;
+        }
+        .social-media-list {
+            left: -42px;
+            top: -210px;
+            width: 451px!important;
+        }
+        .social-media-list li {
+            height: 75px;
+            width: 75px;
+            margin: 38px 4px;
+        }
+        .social-media-list li a {
+            position: absolute;
+            top: 21px;
+            right: 22px;
+            font-size: 34px;
+        }
+        .social-media-list li:after {
+            width: 75px;
+            height: 75px;
+        }
+        .footer {
+            padding-top: 20px;
+        }
+    }
+    
+    @media screen and (max-width: 1024px) and (min-width: 802px) {}
+    
+    @media only screen and (max-width: 800px) {
+        .nav {
+            flex-direction: column;
+            justify-content: space-around;
+            padding: 20px;
+            height: auto;
+            overflow-y: hidden;
+        }
+        .nav h4 {
+            font-size: 6vw;
+            margin-top: 10px;
+            margin-bottom: 14px;
+        }
+        .nav .links a {
+            margin-right: 25px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        /* LANDING PAGE */
+        .landing {
+            flex-direction: column-reverse;
+            height: 750px;
+            align-items: center;
+            justify-content: center;
+            text-align: center
+        }
+        .landingText h1 {
+            font-size: 6vw;
+            margin: 0 !important;
+        }
+        .landingText h3 {
+            font-size: 16px;
+        }
+        .landingText .btn {
+            margin: 0 auto;
+        }
+        .landingText .btn a {
+            font-size: 3vw;
+        }
+        .landingImage img {
+            width: 52vw;
+            margin-bottom: 20px;
+        }
+        /* who-iam */
+        .who-iam {
+            height: auto;
+            padding: 0px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .who-iamText {
+            padding: 0 50px;
+            height: 100px;
+        }
+        .who-iamText h1 {
+            left: 40px;
+            font-size: 5vw;
+        }
+        .who-iamText img {
+            width: 16vw;
+            top: 10px;
+            left: -30px;
+        }
+        .who-iamList {
+            width: 75%;
+        }
+        ol li {
+            font-size: 26px;
+        }
+        li p {
+            font-size: 14px;
+        }
+        .BlogSection {
+            height: auto;
+        }
+        .BlogHeader {
+            text-align: center;
+            margin: 40px 0;
+        }
+        .BlogCards {
+            display: flex;
+            flex-direction: column;
+            padding: 50px;
+            justify-content: center;
+            align-items: center;
+            text-align: center
+        }
+        .BlogCards .card {
+            margin-bottom: 60px;
+        }
+        .banner {
+            height: auto;
+            flex-direction: column-reverse;
+            padding: 50px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .banner h1 {
+            font-size: 6vw;
+        }
+        .bannerInnerText {
+            font-size: 3vw !important;
+        }
+        .bannerText img {
+            width: 20vw;
+        }
+        .bannerImg img {
+            width: 26vw;
+        }
+        .footer {
+            padding-bottom: 40px;
+        }
+    }
